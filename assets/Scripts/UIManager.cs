@@ -22,7 +22,8 @@ public class UIManager : MonoBehaviour
     public GameObject mainGamePanel;
     public GameObject pausePanel;    
     public GameObject victoryPanel;
-    public Text gameOverScoreText;
+    public Text gameOverLoseScoreText;
+    public Text gameOverWinScoreText;
 
     // Objects in the game
     public GameObject floors;
@@ -70,9 +71,9 @@ public class UIManager : MonoBehaviour
     public void GameOver()
     {
         Time.timeScale = 0;
-        gameOverScoreText.text = ScoreManager.Instance.mainScore.ToString();
+        gameOverLoseScoreText.text = ScoreManager.Instance.mainScore.ToString();
         gameOverPanel.SetActive(true);
-        mainGamePanel.SetActive(false);
+        //mainGamePanel.SetActive(false);
         floors.SetActive(false);
         floorBackground.SetActive(false);
     }
@@ -80,8 +81,9 @@ public class UIManager : MonoBehaviour
     public void Victory()
     {
         Time.timeScale = 0;
-        gameOverScoreText.text = ScoreManager.Instance.mainScore.ToString();
+        gameOverWinScoreText.text = ScoreManager.Instance.mainScore.ToString();
         victoryPanel.SetActive(true);
+        //mainGamePanel.SetActive(false);
         floors.SetActive(false);
         floorBackground.SetActive(false);
 

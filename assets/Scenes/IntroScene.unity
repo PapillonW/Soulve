@@ -506,4 +506,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3292450214804960886, guid: ecbe1d5e0536ff044aa8d5bae4a39460, type: 3}
+    - {fileID: 7891056630372619086, guid: ecbe1d5e0536ff044aa8d5bae4a39460, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ecbe1d5e0536ff044aa8d5bae4a39460, type: 3}
+--- !u!1 &7719706379418050714 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7719706379402090503, guid: ecbe1d5e0536ff044aa8d5bae4a39460,
+    type: 3}
+  m_PrefabInstance: {fileID: 7719706379418050713}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7719706379418050715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7719706379418050714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a72cdf83d12216a488e5f5f6890d6b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intestinial_id: ca-app-pub-5489432413164397/7137808820
+  maxAdTime: 100
